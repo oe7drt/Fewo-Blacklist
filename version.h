@@ -21,12 +21,12 @@ namespace Version{
 	//Standard Version Type
 	static const long MAJOR  = 0;
 	static const long MINOR  = 2;
-	static const long BUILD  = 2;
+	static const long BUILD  = 3;
 	//static const long REVISION  = 0;
 
 	//Miscellaneous Version Types
 	//static const long BUILDS_COUNT  = 0;
-	static const char FULLVERSION_STRING [] = "0.2.2";
+	static const char FULLVERSION_STRING [] = "0.2.3";
 
 }
 

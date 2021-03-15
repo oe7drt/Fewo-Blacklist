@@ -8,7 +8,7 @@
  *
  * The MIT License (MIT) {{{
  *
- * Copyright (c) 2015 Dominic Reich
+ * Copyright (c) 2015-2016 Dominic Reich
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -48,11 +48,11 @@ using namespace std;
 //#ifndef _WIN32
   #define HEADER    "\033[1;34mDie Schwarze Liste\033[0m\n"
   #define LINES     "\033[1;34m-------------------------------------------------------------------------------\033[0m"
-  #define INFOLINE  "\033[1;34mSchwarze Liste    (C) 2016 Dominic Reich\033[0m\n"
+  #define INFOLINE  "\033[1;34mSchwarze Liste    (C) 2015-2016 Dominic Reich\033[0m\n"
 //#else
 //  #define HEADER    "Die Schwarze Liste\n"
 //  #define LINES     "-------------------------------------------------------------------------------"
-//  #define INFOLINE  "Schwarze Liste    (C) 2016 Dominic Reich\n"
+//  #define INFOLINE  "Schwarze Liste    (C) 2015-2016 Dominic Reich\n"
 //#endif
 
 /*
@@ -295,7 +295,7 @@ void PrintInfo() {
     cout << " Unterlängenfeld 310 Top 2    http://dominicreich.com/work/tools/\n 6444 Längenfeld\n";
     cout << " AUSTRIA                      Version: " << Version::FULLVERSION_STRING << Version::STATUS_SHORT;
     cout << " (" << Version::STATUS << ")\n\n";
-    cout << " https://github.com/freefallcid/Fewo-Blacklist/\n\n";
+    cout << " https://github.com/oe7drt/Fewo-Blacklist/\n\n";
 #ifndef _WIN32
     cout << "\033[0m";
 #endif
